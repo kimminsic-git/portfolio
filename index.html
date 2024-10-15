@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Minsic's portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Selecao
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Minsic's portfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li class="dropdown"><a href="#portfolio"><span>portfolio</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li class="dropdown"><a href=""><span>C언어</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="numbergame.html">숫자게임</a></li>
+                  <li><a href="calculator.html">계산기</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href=""><span>Python</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="conven.html">편의점 관리 프로그램</a></li>
+                  <li><a href="temcalculator.html">섭씨화씨 계산기</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href=""><span>Web</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="kiosk.html">키오스크</a></li>
+                  <li><a href="vote.html">투표시스템</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Introduce <span>Minsic</span></h2>
+            <p class="animate__animated animate__fadeInUp">컴퓨터 정보학과 졸업. 코드를 잘보는 개발자. 프론트 앤드도 가능한 백앤드 개발자.</p>
+            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">자세히보기</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">work</h2>
+            <p class="animate__animated animate__fadeInUp">제가 졸업한곳과 수료한 교육</p>
+            <a href="#features" class="btn-get-started animate__animated animate__fadeInUp scrollto">자세히보기</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">portfolio</h2>
+            <p class="animate__animated animate__fadeInUp">제가 했던 프로젝트중에 대표적인것</p>
+            <a href="#portfolio" class="btn-get-started animate__animated animate__fadeInUp scrollto">자세히보기</a>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3"></use>
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0"></use>
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+      </svg>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Who am I</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              김민식
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>송원대학교 컴퓨터정보학과 졸업</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>풀스택(프론트엔드&백엔드) 양성과정-혼합 수료</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="introduce_myself">
+              <p>2017년 송원대학교 컴퓨터정보학과에 입학하고 1년간 VR동아리활동을 하였으며 현재 졸업하고 더욱 더 많은걸 하기위해 풀스택과정을 진행하며 우수상을 받았고 수료까지 완료하였습니다.</p>
+              <div class="Myphoto"></div>
+            </div>
+            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <h4 class="d-none d-lg-block">송원대학교 졸업</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <h4 class="d-none d-lg-block">풀스택과정 수료</h4>
+            </a>
+          </li>
+        </ul><!-- End Tab Nav -->
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>송원대학교</h3>
+                <p class="fst-italic">
+                  2017년 입학
+                  <br>
+                  2022년 졸업
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i>
+                    <spab>2018년 6월 VR동아리 가입</spab>
+                  </li>
+                  <li><i class="bi bi-check2-all"></i>
+                    <spab>2018년 7월 VR동아리 장산초 봉사활동</spab>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/university.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>풀스택과정</h3>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i>
+                    <span>2024년 5월 개강</span>
+                  </li>
+                  <li><i class="bi bi-check2-all"></i>
+                    <span>2024년 9월 우수상 수상</span>
+                  </li>
+                  <li><i class="bi bi-check2-all"></i>
+                    <span>2024년 10월 수료</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/Full_Stack.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-C">C언어</li>
+            <li data-filter=".filter-python">Python</li>
+            <li data-filter=".filter-web">Web</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-C">
+              <a href="numbergame.html">
+                <img src="assets/img/masonry-portfolio/numbergame.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>숫자게임</h4>
+                  <p>1부터100까지 숫자중에 임의의 숫자를 맞추세요</p>
+                  <a href="assets/img/masonry-portfolio/numbergame.png" title="숫자게임" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-python">
+              <a href="">
+                <img src="assets/img/masonry-portfolio/conven.PNG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>편의점 관리 프로그램</h4>
+                  <p>편의점 재고를 추가하거나 판매 재고조회 등 하는 프로그램</p>
+                  <a href="assets/img/masonry-portfolio/conven.PNG" title="편의점 관리 프로그램" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <a href="">
+                <img src="assets/img/masonry-portfolio/kiosk.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>키오스크</h4>
+                  <p>키오스크 기능을 구현하고 재고관리 및 재고추가를 가능하게 만든다.</p>
+                  <a href="assets/img/masonry-portfolio/kiosk.png" title="키오스크" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-C">
+              <a href="calculator.html">
+                <img src="assets/img/masonry-portfolio/calculator.PNG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>계산기</h4>
+                  <p>간단한 사친연산이 가능하게 만들어주는 프로그램</p>
+                  <a href="assets/img/masonry-portfolio/calculator.PNG" title="계산기" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-python">
+              <a href="">
+                <img src="assets/img/masonry-portfolio/temexchange.PNG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>섭씨화씨 계산기</h4>
+                  <p>화씨를 섭씨로 바꾸고 섭씨를 화씨로 바꾸는 계산기</p>
+                  <a href="assets/img/masonry-portfolio/temexchange.PNG" title="섭씨화씨 계산기" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <a href="">
+                <img src="assets/img/masonry-portfolio/vote.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>투표시스템</h4>
+                  <p>온라인 투표시스템을 구현하고 투표순위랑 투표를 볼수있는 시스템</p>
+                  <a href="assets/img/masonry-portfolio/vote.png" title="투표시스템" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </a>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" style="display: flex; width: 100%;">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>광주광역시 신창로161번길 34</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>010-8977-8198</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email</h3>
+                <p>kimminsic0001@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">Minsic's portfolio</h3>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/kimminsic-git"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Selecao</strong> <span>All Rights Reserved</span>  /<span>이미지=https://blog.goorm.io/kdt_fullstack/,https://namu.wiki/w/송원대학교</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
